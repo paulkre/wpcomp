@@ -1,0 +1,21 @@
+{
+  "name": "paulkre/wpcomp",
+  "description": "A library that helps with developing WordPress themes in a modern component-based fashion",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paul Kretschel",
+      "email": "paul.kretschel@icloud.com"
+    }
+  ],
+  "autoload-dev": {
+    "psr-4": {
+      "WPComp\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "wpackio/enqueue": "dev-master"
+  }
+}
